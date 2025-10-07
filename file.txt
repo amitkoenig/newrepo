@@ -1,4 +1,8 @@
 Hello world!
 this is version 2
 
+<<<<<<< HEAD
 this was made in feture branch1
+=======
+this was made in feture branch!!
+>>>>>>> 83a0bf6 (git add . added)
