@@ -4,6 +4,9 @@ import sqlite3
 from flask import Flask, request
 
 app = Flask(__name__)
+AWS_ACCESS_KEY_ID = "AKIAEXAMPLEFAKEKEY1234"
+AWS_SECRET_ACCESS_KEY = "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
+
 
 # --- Example 1: Command Injection ---
 @app.route("/run")
