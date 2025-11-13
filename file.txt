@@ -5,3 +5,17 @@ this is version 23
 
 this was made in feture branch1
 
+GITHUB_TOKEN=ghp_abcdefghijklmnopqrstuvwx1234567890
+
+# Fake AWS access key + secret pattern (AKIA...)
+AWS_ACCESS_KEY_ID=AKIAFAKEEXAMPLEKEY12345
+AWS_SECRET_ACCESS_KEY=wJalrXUtnFEMI/K7MDENG/bPxRfiCYFAKESECRET
+
+# Fake generic API key pattern (40 chars)
+API_KEY=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+
+# Fake RSA private key block (some scanners detect this shape)
+-----BEGIN RSA PRIVATE KEY-----
+MIIEpAIBAAKCAQEAFAKEFAKEFAKEFAKEFAKEFAKEFAKEFAKEFAKEFAKEFAKEFAKE
+FAKEFAKEFAKEFAKEFAKEFAKEFAKEFAKEFAKEFAKEFAKEFAKEFAKEFAKEFAKEFAKE
+-----END RSA PRIVATE KEY-----
